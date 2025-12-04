@@ -22,7 +22,8 @@ class MenuDepartamento(Menu):
     
     def mostrarTodos(self):
         print("Mostrar todos los Departamentos (presentación)")
-    
+        #Aqui y en los demas metodos falta 
+        #agregar la conexion al metodo de la clase correspondiente
     def buscarPorCodigo(self):
         print("Buscar Departamento por Código (presentación)")
     

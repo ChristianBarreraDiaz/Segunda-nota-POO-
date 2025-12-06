@@ -16,7 +16,7 @@ class Departamento:
             raise ValueError("no puede estar vacío")#para validar conjuntos vacios 
         self.__codigo = value
     
-    #devolver nombre privado
+    #devlver nombre privado
     @property
     def nombre(self):
         return self.__nombre

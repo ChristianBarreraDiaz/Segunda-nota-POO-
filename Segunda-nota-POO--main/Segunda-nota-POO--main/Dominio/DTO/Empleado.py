@@ -77,4 +77,4 @@ class Empleado:
     def __str__(self):
         return "{} - {} - {} - {} - {} - {}".format(self.__nombre, self.__direccion, \
                                                     self.__correo, self.__salario, self.__departamento,\
-                                                     self.__fecha_contrato) #esto hay que corregir 
+                                                     self.__fecha_contrato)
